@@ -55,8 +55,7 @@ public class PolygonTest {
 	public void testSetVertices () {
 		float[] newVertices = {1, 1, 4, 1, 4, 5};
 		polygon.setVertices(newVertices);
-		assertArrayEquals("The new vertices are not correctly defined.", newVertices, polygon.getVertices(),
-			0.001f);
+		assertArrayEquals("The new vertices are not correctly defined.", newVertices, polygon.getVertices(), 0.001f);
 	}
 
 	@Test
